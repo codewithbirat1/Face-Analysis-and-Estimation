@@ -1,5 +1,4 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -7,7 +6,45 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-canvas{
+
+canvas {
     position: absolute;
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    bottom: 0px; 
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer p a{
+   
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.social-media-icons {
+    margin-top: 10px;
+}
+
+.social-media-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-media-icons a:hover {
+    color: #ddd;
 }
